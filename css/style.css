@@ -1,0 +1,66 @@
+@charset "utf-8";
+html{
+	max-width:1280px;
+	max-height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Arial;
+	}
+*{
+		border-radius: 3px;
+	}
+.left,#left{
+	float: left;
+}
+.right,#right{
+	float: right;
+}
+/*                  header                    */
+.logo {
+	width: 200px;
+	height: 150px;
+	margin: -10px 0px 0px 10px;
+}
+.navbar{
+	margin:50px 0px 0px 0px;
+	padding: 100px 0px 0px 0px;
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 30px;
+	font-size: 24px;
+}
+/*                  content                    */
+.img-carousel{
+	clear: both;
+}
+#img-carousel-1{
+	display: block;
+  margin: auto;
+}
+.vise-navbar li{
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 200px;
+	font-size: 24px;
+}
+/*                  footer                    */
+footer{
+	clear: both;
+	margin-top: 400px;
+}
+#icon-fb,#icon-ig,#icon-twitter,.icon-taiwan{
+	width: 50px;
+	height: 50px;
+}
+.icon-taiwan{
+	margin-left: 50px;
+}
+.copyright{
+	font-size: 18px;
+  margin: 20px 0px 0px 420px;
+}
+.community{
+	margin-right: 250px;
+}
