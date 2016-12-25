@@ -44,7 +44,7 @@ a{
 	margin: auto;
 	background-color: gray;
 	width: 800px;
-	height: 500px;
+	height: 250px;
 }
 .news{
 	clear: both;
@@ -52,12 +52,32 @@ a{
 	margin-top: 100px;
 	font-size: 48px;
 }
-.banner-1{
+.banner-1,.banner-3{
+	margin-left: 30px;
+	font-size: 36px;
+}
+.banner-3{
+	clear: left;
+}
+.banner-2,.banner-4{
+	background-color: white;
+	width: 80%;
+	height: 30px;
+	margin-right: 30px;
+	margin-top: 8px;
+}
+.banner-5,.banner-6{
+	text-align: center;
 	background-color: black;
-	display: block;
-	margin: auto;
-	width: 90%;
-	height:400px;
+	color: white;
+	width: 60px;
+	height: 30px;
+}
+.banner-5{
+	margin: 60px 0px 0px 200px;
+}
+.banner-6{
+	margin: 60px 250px 0px 0px;
 }
 .vise-navbar{
 	margin-top: 80px;

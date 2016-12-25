@@ -52,12 +52,15 @@ a{
 	margin-top: 100px;
 	font-size: 48px;
 }
-.banner-1{
-	background-color: black;
+.banners div{
+	width: 90%;
+	height: 30px;
 	display: block;
 	margin: auto;
-	width: 90%;
-	height:400px;
+	background-color: black;
+}
+.banners div{
+	margin-bottom: 10px;
 }
 .vise-navbar{
 	margin-top: 80px;
