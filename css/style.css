@@ -42,18 +42,22 @@ a{
 .scroll{
 	clear: both;
 	background-color:black;
-	width: 820px;
-	height: 520px;
+	width: 800px;
+	height: 500px;
 	display: block;
 	margin: auto;
 	margin-top: 80px;
 	margin-bottom: 30px;
+	-webkit-box-shadow: 0 0 15px black, 0 0 40px black inset;
+  -moz-box-shadow: 0 0 15px black, 0 0 40px black inset;
+	box-shadow: 0 0 15px black, 0 0 40px black inset;
+	padding: 10px;
+	background: #fff;
+	border: none;
 }
 .scroll img{
 	width: 800px;
 	height: 500px;
-	-webkit-box-shadow: 0 0 15px black, 0 0 40px black inset;
-  -moz-box-shadow: 0 0 15px black, 0 0 40px black inset;
 	box-shadow: 0 0 15px black, 0 0 40px black inset;
 	padding: 10px;
 	background: #fff;
